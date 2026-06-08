@@ -1,0 +1,7 @@
+# Ignore Rust build artifacts (any target/ directory)
+target/
+**/target/
+
+# Ignore Cargo lock files anywhere in the tree
+Cargo.lock
+**/Cargo.lock
