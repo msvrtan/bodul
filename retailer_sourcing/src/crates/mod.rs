@@ -1,3 +1,9 @@
+pub mod catalogue;
+pub mod collection;
+pub mod crawl;
+pub mod scheduling;
+pub mod types;
+
 pub fn info() -> &'static str {
     "crates module v0.1.0"
 }
